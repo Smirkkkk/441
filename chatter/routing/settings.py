@@ -10,8 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
-import os
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,12 +21,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-z!uqhwqt_8ey!((6&=6o8(&6u3%8&6ham97j)r=wne&s(m*z@h'
+SECRET_KEY = 'django-insecure-#nh&pd0w^c0q7j26#frs$g3@q0gb&xm%ww8$0jz)-0ehf^__^r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['118.178.195.0', 'localhost', '127.0.0.1']
+
 
 # Application definition
 
@@ -81,8 +82,9 @@ DATABASES = {
       'PASSWORD': 'chattchatt',
       'HOST': 'localhost',
       'PORT': '',
-   }
   }
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -120,6 +122,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
