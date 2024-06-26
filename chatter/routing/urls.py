@@ -22,4 +22,6 @@ urlpatterns = [
     path('postchatt/', views.postchatt, name='postchatt'),
     path('getchatts/', views.getchatts, name='getchatts'),
     path('admin/', admin.site.urls),
+    path('getimages/', views.getimages, name='getimages'),
+    path('postimages/', views.postimages, name='postimages'),
 ]
