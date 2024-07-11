@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">kotlinJpCChatter</string>
+    <string name="chatter">Chatter</string>
+    <string name="post">Post</string>
+    <string name="send">Send</string>
+    <string name="username">zhouwentao</string>
+    <string name="message">Some short sample text.</string>
+</resources>
